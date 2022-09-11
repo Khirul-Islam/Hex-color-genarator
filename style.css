@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#input {
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  width: 50%;
+}
+#btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
